@@ -1,11 +1,11 @@
-#Git CMD --> SIN <>
+#Git CMD --> WITHOUT "<>"
 1.  git init                                                                           -  initialize repository in project folder
 2.  git add . or git add <file names>                                                  - add files to local repository
 3.  git commit -m "message" or git commit   (add comments in Nano or vim)              - commit repository
 4.  git remote add origin <remote repository URL>                                      - Add local repository to remote repository --> SIN <>
 5.  git push origin master                                                             - Push local changes to remote
 
-#Problema Branch: main-master
+#Branch Problem: main-master
 git checkout master   
 git branch main master -f    
 git checkout main  
